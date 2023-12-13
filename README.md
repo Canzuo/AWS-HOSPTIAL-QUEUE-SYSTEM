@@ -33,3 +33,5 @@ Optionally, use S3 for storing any static assets or logs.
 - Another Lambda function triggers an SNS notification for the patient.
 - The hospital staff manages the queue through another set of API Gateway endpoints.
 - A Step Function may orchestrate the overall process, ensuring data consistency.
+
+# STEP BY STEP
