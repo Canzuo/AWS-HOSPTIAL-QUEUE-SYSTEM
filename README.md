@@ -36,13 +36,18 @@ Optionally, use S3 for storing any static assets or logs.
 
 # STEP BY STEP
 **Step 1: Set up AWS account**
-- Set up AWS account at AWS Management Console
+- Setting up AWS account at AWS Management Console
 
 **Step 2: Create IAM Role**
-- Create IAM Role with necessary permissions for the Lambda function.
-- Attach 'AWSLambdaBasicExecutionRole' and 'AWSLambdaRole'
+- Creating IAM Role with necessary permissions for the Lambda function.
+- Attaching 'AWSLambdaBasicExecutionRole' and 'AWSLambdaRole'
 
 **Step 3: Set up DynamoDB**
-- Create a new table in DynamoDB
-- Create additional fields
-- Enable DynamoDB streams
+- Creating a new table in DynamoDB
+- Creating additional fields
+- Enabling DynamoDB streams
+
+**Step 4: Set up API Gateway**
+- Setting up REST API
+- Defining resources and methods for parents to get a number
+- Creating other resources and methods for staff to manage the queue
