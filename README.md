@@ -51,3 +51,7 @@ Optionally, use S3 for storing any static assets or logs.
 - Setting up REST API
 - Defining resources and methods for parents to get a number
 - Creating other resources and methods for staff to manage the queue
+
+**Step 5: Set up SNS Notification**
+- Setting up SNS in SNS Console
+- Using SNS Protocol to subscribe
